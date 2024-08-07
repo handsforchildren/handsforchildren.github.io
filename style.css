@@ -1,0 +1,61 @@
+body{
+    background-color: darkorange;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}#header{
+    text-align: center;letter-spacing: 10px;
+}#hands{
+    color: red;
+    font-size: 60px;font-weight: bold;
+}#for{
+    color: yellow;
+    font-size: 45px;font-weight: bold;
+}#children{
+    color: blue;
+    font-size: 60px;font-weight: bold;
+}nav  a{ /* tous les liens a à l'intérieur de la balise nav */
+    float: left; /* effet flottant */
+    text-decoration: none; /* pas d'héritage avec effet souligné */
+    color: #ffffff; /* couleur du texte */
+    background: #000000; /* couleur de fond */
+    height: 40px; /* hauteur */
+    line-height: 33px; /* interligne */
+    padding: 0 15px; /* marges intérieur */
+    font-family: sans-serif; /* police d'écriture */
+    font-weight: 500px;
+    font-size: 16px; /* taille du texte */
+    transition: .5s; /* temps de transition lors du hover : une demi seconde */
+    }
+nav  a:hover{ /* tous liens lors du survol dans la balise nav */
+    background: chartreuse; /* couleur de fond */
+    color: black;
+}.title{
+    padding-left: 13px;
+    font-size: 35px;font-size: bold;letter-spacing: 2px;
+    color: navy;
+}.desc{
+    font-size: 27px;font-weight: 500px;
+}.text{
+    font-size: 18px;
+}.pres{
+    border: 1px solid steelblue;
+    box-sizing: border-box;border-style: none;
+    background-color: rgb(10, 235, 107);
+    font-weight: bold;line-height: 20px;
+    font-size: 18px;color: crimson;
+}#box{
+    text-align: center;
+}#det{
+    margin-bottom: 15px;
+}#input{
+    height: 30px;width: 200px;
+}#submit{
+    background-color: springgreen;font-weight: bold;
+    border-radius: 5px;font-weight: bold;
+    height: 35px;outline: none;
+    cursor: pointer;color: black;
+}.img{
+    width: 100%;
+}.nomsPrenoms{
+    font-style: italic;
+    font-weight: bold;
+}
